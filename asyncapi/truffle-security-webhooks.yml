@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://trufflesecurity.com/docs/webhook.md
+spec_type: Webhooks
+summary: >-
+  TruffleHog Enterprise can deliver scan findings to external systems via outbound webhook
+  notifications. The "Webhook" destination and the "Notify results" configuration document HTTP
+  callbacks that push detected/verified secret findings to a configured endpoint. No public
+  AsyncAPI document is published; this captures the documented webhook (event push) surface only.
+docs:
+- https://trufflesecurity.com/docs/webhook.md
+- https://trufflesecurity.com/docs/notify-results.md
+channels:
+- name: scan-result-notification
+  direction: outbound
+  transport: http
+  description: >-
+    Scan results / findings are pushed to a customer-configured webhook endpoint as a
+    notification destination. Payload schema is not published in the public docs index.

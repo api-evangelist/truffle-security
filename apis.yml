@@ -1,7 +1,27 @@
 aid: truffle-security
 name: Truffle Security
-description: Truffle Security is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Truffle Security Co. is an open-source security software company founded in 2021 and backed by
+  a16z. It builds TruffleHog, the widely adopted secrets-scanning engine that detects, verifies,
+  and helps remediate leaked credentials across source code, git history, container images, cloud
+  storage, SaaS tools, and CI/CD pipelines. TruffleHog classifies 800+ credential types, actively
+  verifies whether a found secret is live, and ships as a Go CLI (open source, AGPL-3.0) plus a
+  commercial TruffleHog Enterprise platform with continuous monitoring, 20+ integrations
+  (GitHub, GitLab, Confluence, Jira, Slack, SharePoint, GCP, and more), a triage dashboard, and a
+  v3 Enterprise API. Products include TruffleHog open source, TruffleHog Enterprise, Analyze, and
+  Forager.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/trufflesecurity.png
 url: https://raw.githubusercontent.com/api-evangelist/truffle-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,60 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Security
+- Secrets Detection
+- Secrets Scanning
+- DevSecOps
+- Application Security
+- Credential Scanning
+- TruffleHog
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/truffle-security-domain-security.yml
+- type: Website
+  url: https://trufflesecurity.com
+- type: Portal
+  url: https://docs.trufflesecurity.com
+- type: Documentation
+  url: https://docs.trufflesecurity.com
+- type: GettingStarted
+  url: https://github.com/trufflesecurity/trufflehog#floppy_disk-installation
+- type: GitHubOrganization
+  url: https://github.com/trufflesecurity
+- type: Blog
+  url: https://trufflesecurity.com/blog
+- type: Pricing
+  url: https://trufflesecurity.com/pricing
+- type: SignUp
+  url: https://github.com/trufflesecurity/trufflehog
+- type: Support
+  url: https://trufflesecurity.com/contact
+- type: Packages
+  url: packages/truffle-security-packages.yml
+- type: CLI
+  url: cli/truffle-security-cli.yml
+- type: LLMsTxt
+  url: llms/truffle-security-llms.txt
+- type: ChangeLog
+  url: changelog/truffle-security-changelog.yml
+- type: WellKnown
+  url: well-known/truffle-security-well-known.yml
+- type: Conformance
+  url: conformance/truffle-security-conformance.yml
+- type: Webhooks
+  url: asyncapi/truffle-security-webhooks.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1

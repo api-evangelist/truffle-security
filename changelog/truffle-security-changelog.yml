@@ -1,0 +1,37 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.trufflesecurity.com/llms.txt
+docs: https://trufflesecurity.com/docs/2026-july.md
+scheme: calendar-monthly-release-notes
+current_version: v3.95.9
+current_version_date: '2026-07-09'
+notes: >-
+  Truffle Security publishes dated monthly product release notes (open source + Enterprise). The
+  open-source TruffleHog CLI also tags SemVer releases on GitHub (latest v3.95.9). Entries below
+  are the recent published release-note pages; only the July 2026 page was captured in detail.
+entries:
+- version: '2026-07'
+  date: '2026-07-15'
+  url: https://trufflesecurity.com/docs/2026-july.md
+  breaking: false
+  highlights:
+  - Five new secret detectors added (Braintrust, pganalyze, Red Hat Pyxis, and others)
+  - Faster v3 Enterprise API endpoint with cursor pagination replacing offset-based paging
+  - Scan JSON output now includes structured SecretParts for each finding
+  - Scanner handles files with lines exceeding the default 64 KB buffer limit
+  - SharePoint sources scan generic list content including attachments
+  - Programmatic retrieval of scanner egress IP addresses
+- version: '2026-06'
+  url: https://trufflesecurity.com/docs/2026-june.md
+- version: '2026-05'
+  url: https://trufflesecurity.com/docs/2026-may.md
+- version: '2026-04'
+  url: https://trufflesecurity.com/docs/2026-april.md
+- version: '2026-03'
+  url: https://trufflesecurity.com/docs/2026-march.md
+- version: '2026-02'
+  url: https://trufflesecurity.com/docs/2026-february.md
+- version: '2026-01'
+  url: https://trufflesecurity.com/docs/2026-january.md
+- version: '2025-12'
+  url: https://trufflesecurity.com/docs/2025-december.md

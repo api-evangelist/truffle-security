@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/trufflesecurity/trufflehog
+notes: >-
+  TruffleHog is distributed as a single first-party Go CLI binary (AGPL-3.0), not as language
+  client SDKs. It is published as a Go module, a Homebrew formula, and official container images
+  on Docker Hub, plus signed binary releases on GitHub (cosign-verifiable install script). No
+  first-party npm/PyPI/Maven/NuGet/RubyGems client libraries were found.
+packages:
+- language: go
+  registry: pkg.go.dev
+  name: github.com/trufflesecurity/trufflehog/v3
+  url: https://pkg.go.dev/github.com/trufflesecurity/trufflehog/v3
+  install: go install github.com/trufflesecurity/trufflehog/v3@latest
+  latest_version: v3.95.9
+  official: true
+- language: shell
+  registry: homebrew
+  name: trufflehog
+  url: https://formulae.brew.sh/formula/trufflehog
+  install: brew install trufflehog
+  official: true
+- language: docker
+  registry: docker-hub
+  name: trufflesecurity/trufflehog
+  url: https://hub.docker.com/r/trufflesecurity/trufflehog
+  install: docker run trufflesecurity/trufflehog:latest
+  official: true
+- language: shell
+  registry: github-releases
+  name: trufflehog
+  url: https://github.com/trufflesecurity/trufflehog/releases
+  install: "curl -sSfL https://raw.githubusercontent.com/trufflesecurity/trufflehog/main/scripts/install.sh | sh -s -- -b /usr/local/bin"
+  official: true

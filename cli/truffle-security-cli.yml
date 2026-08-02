@@ -1,0 +1,60 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.trufflesecurity.com/llms.txt
+docs: https://github.com/trufflesecurity/trufflehog
+name: trufflehog
+summary: >-
+  TruffleHog is a first-party Go command-line tool that finds, verifies, and analyzes leaked
+  credentials across many sources. The CLI is organized as one subcommand per scan source, plus
+  an analyze command for inspecting a discovered credential's permissions.
+install:
+- method: homebrew
+  command: brew install trufflehog
+- method: docker
+  command: docker run trufflesecurity/trufflehog:latest
+- method: go
+  command: go install github.com/trufflesecurity/trufflehog/v3@latest
+- method: script
+  command: "curl -sSfL https://raw.githubusercontent.com/trufflesecurity/trufflehog/main/scripts/install.sh | sh -s -- -b /usr/local/bin"
+commands:
+- group: source-scanners
+  description: One subcommand per scan target; each scans that source for verified secrets.
+  commands:
+  - git
+  - github
+  - github-experimental
+  - gitlab
+  - filesystem
+  - s3
+  - gcs
+  - docker
+  - jenkins
+  - circleci
+  - postman
+  - elasticsearch
+  - syslog
+  - stdin
+- group: analysis
+  description: Analyze a discovered credential to enumerate its permissions and resource access.
+  commands:
+  - analyze
+common_flags:
+- flag: "--json"
+  description: Emit findings as JSON (includes structured SecretParts per finding).
+- flag: "--only-verified"
+  description: Only report secrets that were actively verified as live.
+- flag: "--no-verification"
+  description: Disable live verification of discovered secrets.
+- flag: "--results"
+  description: Filter which result types (verified, unknown, unverified) are reported.
+- flag: "--config"
+  description: Path to a YAML config with custom detectors and source settings.
+- flag: "--concurrency"
+  description: Number of concurrent workers.
+key_flows:
+- name: Scan a GitHub repo for verified secrets
+  command: trufflehog github --repo=https://github.com/org/repo --only-verified
+- name: Scan a container image
+  command: trufflehog docker --image=trufflesecurity/secrets
+- name: Scan a local directory
+  command: trufflehog filesystem ./path --json

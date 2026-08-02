@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://trufflesecurity.com and https://docs.trufflesecurity.com
+hosts:
+- host: https://trufflesecurity.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://docs.trufflesecurity.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+result: none
+notes: >-
+  No /.well-known/ discovery documents are published on the marketing or docs hosts. An llms.txt
+  IS published at https://docs.trufflesecurity.com/llms.txt (captured separately in llms/).

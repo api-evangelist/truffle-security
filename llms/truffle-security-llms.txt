@@ -1,0 +1,98 @@
+#
+
+## Docs
+
+- [2025 October](https://trufflesecurity.com/docs/2025-october.md)
+- [Creating a scanner](https://trufflesecurity.com/docs/creating-a-scanner.md)
+- [Configuring a self-hosted scanner](https://trufflesecurity.com/docs/configuring-a-self-hosted-scanner.md)
+- [Multi-project ticket synchronization](https://trufflesecurity.com/docs/multi-project-ticket-synchronization.md)
+- [Pre-receive hooks](https://trufflesecurity.com/docs/pre-receive-hooks.md)
+- [Hosted Scanner deployment](https://trufflesecurity.com/docs/hosted-scanner-deployment.md)
+- [Amazon ECR](https://trufflesecurity.com/docs/amazon-ecr.md)
+- [Filesystem](https://trufflesecurity.com/docs/filesystem.md): Learn about the web and local configurations for filesystem scanning. Discover the YAML code snippet for the local configuration, including parameters like paths, includePathsFile, excludePathsFile, name, scanPeriod, type, and verify. Contr
+- [Bitbucket](https://trufflesecurity.com/docs/bitbucket.md): Learn how to configure your connection to BitBucket for repository scanning. Discover various authentication methods, including token, basic authentication with password, and basic authentication with app password/token.
+- [Security and Compliance](https://trufflesecurity.com/docs/security-and-compliance.md)
+- [Terminology](https://trufflesecurity.com/docs/terminology.md)
+- [2026 May](https://trufflesecurity.com/docs/2026-may.md)
+- [2026 March](https://trufflesecurity.com/docs/2026-march.md)
+- [2025 November](https://trufflesecurity.com/docs/2025-november.md)
+- [2025 September](https://trufflesecurity.com/docs/2025-september.md)
+- [Microsoft Sharepoint](https://trufflesecurity.com/docs/microsoft-sharepoint.md): Learn how to seamlessly integrate Microsoft SharePoint with TruffleHog Enterprise. Discover the required scopes and follow step-by-step instructions to configure the SharePoint scanner through the user interface. Please n
+- [Reverify secrets](https://trufflesecurity.com/docs/reverify-secrets.md)
+- [Topology](https://trufflesecurity.com/docs/topology.md)
+- [Resource Hub](https://trufflesecurity.com/docs/resource-hub.md)
+- [2026 January](https://trufflesecurity.com/docs/2026-january.md)
+- [Customizing detection](https://trufflesecurity.com/docs/customizing-detection.md)
+- [Docker](https://trufflesecurity.com/docs/docker.md)
+- [Self-Hosted Deployment Guide](https://trufflesecurity.com/docs/self-hosted-deployment-guide.md)
+- [GitLab](https://trufflesecurity.com/docs/gitlab.md): Learn how to integrate GitLab repositories with TruffleHog. It offers YAML code examples for easy local configuration and provides a detailed list of supported options and capabilities. Discover the limitations of th
+- [Jira](https://trufflesecurity.com/docs/source-jira.md): Learn how to seamlessly integrate TruffleHog with Atlassian Jira. Discover step-by-step instructions for creating Jira Cloud and on-premise Jira credentials, along with essential configuration options for local se
+- [2025 August](https://trufflesecurity.com/docs/2025-august.md)
+- [Helm Chart](https://trufflesecurity.com/docs/helm-chart.md)
+- [Kubernetes Manifest](https://trufflesecurity.com/docs/kubernetes-manifest.md)
+- [Postman](https://trufflesecurity.com/docs/postman.md)
+- [Verification caching](https://trufflesecurity.com/docs/verification-caching.md)
+- [GCP analyze](https://trufflesecurity.com/docs/analyze-gcp.md): TruffleHog Analyze with Google Cloud Platform (GCP)
+- [Linux Host](https://trufflesecurity.com/docs/linux-host.md)
+- [Scan for secrets](https://trufflesecurity.com/docs/scan-for-secrets.md): TruffleHog: A Powerful Tool for Detecting Sensitive Data across your SDLC. Scan live secrets in Artifactory, AWS S3,  Docker, Confluence, Jira, Microsoft Teams, Sharepoint, Azure Repos, GitLab, GitHub, Jenkins, and Slack and more.
+- [CircleCI](https://trufflesecurity.com/docs/circleci.md): Learn how to effectively scan CircleCI build logs for credentials. It offers a local configuration example in YAML format and highlights the supported capabilities, including scanning build logs and base64 encoded data.
+- [Analyze secrets](https://trufflesecurity.com/docs/analyzers.md)
+- [Self-Hosted Scanner deployment](https://trufflesecurity.com/docs/self-hosted-scanner-deployment.md): Deploy TruffleHog Enterprise with Systemd, Docker, Helm Chart, and Kubernetes manifest in this comprehensive guide.
+- [Docker](https://trufflesecurity.com/docs/scan-docker.md): Learn about the local configuration options for Docker integration. Discover how to enable unauthenticated scans, Docker keychain authentication, basic authentication, and bearer token authentication. Explore YAML code examples.
+- [Microsoft Teams](https://trufflesecurity.com/docs/microsoft-teams.md): Learn how to configure the integration of Microsoft Teams with TruffleHog. This document provides step-by-step instructions and outlines the necessary permissions and scopes required for accessing and reading mess
+- [Authentication](https://trufflesecurity.com/docs/authentication.md)
+- [Azure Repos (cloud)](https://trufflesecurity.com/docs/azure-repos-cloud.md): Learn how to configure Azure Repos for scanning using a personal access token (PAT). Discover the various configuration options available, including the ability to specify organizations, projects, and repositories.
+- [Scanning in CI](https://trufflesecurity.com/docs/scanning-in-ci.md)
+- [Google Artifact Registry](https://trufflesecurity.com/docs/google-artifact-registry.md)
+- [Customizing TruffleHog](https://trufflesecurity.com/docs/customizing-trufflehog.md)
+- [GitHub Real-time](https://trufflesecurity.com/docs/github-real-time.md): Learn how to integrate with GitHub with TruffleHog. Discover how to create personal access tokens with the required scopes and explore various configuration options for the integration. Find out how to specify endpoints, repo
+- [Jenkins](https://trufflesecurity.com/docs/jenkins.md)
+- [2026 April](https://trufflesecurity.com/docs/2026-april.md)
+- [Resource requirements](https://trufflesecurity.com/docs/resource-requirements.md)
+- [Notify results](https://trufflesecurity.com/docs/notify-results.md)
+- [2026 February](https://trufflesecurity.com/docs/2026-february.md)
+- [2026 July](https://trufflesecurity.com/docs/2026-july.md)
+- [Google Drive](https://trufflesecurity.com/docs/google-drive.md)
+- [Webhook](https://trufflesecurity.com/docs/webhook.md)
+- [Choose your adventure](https://trufflesecurity.com/docs.md): Compare TruffleHog Open Source and TruffleHog Enterprise. Both versions offer extensive scanning capabilities and a wide range of secret detectors for various platforms.
+- [Credential management](https://trufflesecurity.com/docs/credential-management.md)
+- [Configuring a scanner](https://trufflesecurity.com/docs/configuring-a-scanner.md)
+- [Getting started](https://trufflesecurity.com/docs/getting-started.md): Learn how to set up and utilize TruffleHog Enterprise's managed and self-hosted scanners for enhanced security. This document includes step-by-step instructions on creating, configuring, and running scanners, as well as a comprehensive guide to understand
+- [Configuration file reference](https://trufflesecurity.com/docs/configuration-file-reference.md)
+- [Running the scanner](https://trufflesecurity.com/docs/running-the-scanner.md)
+- [Jfrog Artifactory](https://trufflesecurity.com/docs/jfrog-artifactory.md): Scan Jfrog Artifactory for secrets with TruffleHog
+- [Slack](https://trufflesecurity.com/docs/source-slack.md): Learn how to configure TruffleHog, a powerful tool for scanning public and private channels on Slack. Discover the steps to add the app to Slack, enable necessary scopes, and integrate it with TruffleHog. Uncover TruffleHog's extensive capabilities, such
+- [Gerrit](https://trufflesecurity.com/docs/gerrit.md): Learn how to seamlessly integrate Gerrit and TruffleHog. Discover step-by-step instructions, along with practical examples of local configuration settings for code scanning in Gerrit. Uncover the extensive options and capabilities.
+- [AWS S3](https://trufflesecurity.com/docs/aws-s3.md): Learn how to configure TruffleHog to scan AWS S3 for credentials. Discover the various IAM identities for access control, explore authentication options like IAM credentials and role assumptions, and find examples of YAML
+- [Google Cloud Storage (GCS)](https://trufflesecurity.com/docs/google-cloud-storage-gcs.md): Learn how to integrate Google Cloud Storage (GCS) with TruffleHog using IAM credentials or a service account file. This document provides step-by-step instructions, code examples, and configuration options for scanning buckets and objects in GCS.
+- [Confluence](https://trufflesecurity.com/docs/confluence.md): Learn how to configure a Confluence source for Atlassian Confluence. Discover the various web and local configuration options for Confluence Cloud, Datacenter, and Server. Explore the available configuration keys and their
+- [GitHub](https://trufflesecurity.com/docs/github.md): Learn how to integrate with GitHub with TruffleHog. Discover how to create personal access tokens with the required scopes and explore various configuration options for the integration. Find out how to specify endpoints, repo
+- [Git](https://trufflesecurity.com/docs/git.md): Learn how to integrate TruffleHog with Git. The documentation covers configuration examples for local setups with basic authentication, SSH authentication, and unauthenticated connections. Discover the various options and capabilities.
+- [Email](https://trufflesecurity.com/docs/email.md)
+- [Jira](https://trufflesecurity.com/docs/jira.md)
+- [Slack](https://trufflesecurity.com/docs/slack.md)
+- [Block secrets from leaking](https://trufflesecurity.com/docs/block-secrets-from-leaking.md)
+- [Custom detectors](https://trufflesecurity.com/docs/custom-detectors.md)
+- [Architecture](https://trufflesecurity.com/docs/architecture.md)
+- [Data flow](https://trufflesecurity.com/docs/data-flow.md)
+- [How we handle your data](https://trufflesecurity.com/docs/how-we-handle-your-data.md)
+- [2025 May](https://trufflesecurity.com/docs/2025-may.md)
+- [Google Drive Domain-Wide Delegation (DWD)](https://trufflesecurity.com/docs/google-drive-domain-wide-delegation-dwd.md)
+- [Self-discovery analyzers](https://trufflesecurity.com/docs/analyze-self-discovery.md)
+- [Shared Secrets](https://trufflesecurity.com/docs/shared-secrets.md)
+- [Pre-commit hooks](https://trufflesecurity.com/docs/pre-commit-hooks.md)
+- [Customizing detectors](https://trufflesecurity.com/docs/customizing-detectors.md)
+- [Exported Secrets Column Definitions](https://trufflesecurity.com/docs/exported-secrets-column-definitions.md)
+- [2025 December](https://trufflesecurity.com/docs/2025-december.md)
+- [User Enablement Guide](https://trufflesecurity.com/docs/user-enablement-guide.md)
+- [2025 June](https://trufflesecurity.com/docs/2025-june.md)
+- [Secret Management Best Practices](https://trufflesecurity.com/docs/secret-management-best-practices.md)
+- [Stdout](https://trufflesecurity.com/docs/stdout.md)
+- [2025 July](https://trufflesecurity.com/docs/2025-july.md)
+- [TruffleHog Release Notes](https://trufflesecurity.com/docs/trufflehog-release-notes.md)
+- [Splunk](https://trufflesecurity.com/docs/splunk.md)
+- [On-premise verification](https://trufflesecurity.com/docs/on-premise-verification.md)
+- [Dynamic Role-Based Access Control (RBAC)](https://trufflesecurity.com/docs/dynamic-role-based-access-control-rbac.md)
+- [Compliance](https://trufflesecurity.com/docs/compliance.md)
+- [Vector](https://trufflesecurity.com/docs/vector.md)
+- [Buildkite](https://trufflesecurity.com/docs/buildkite.md): Learn how to configure access to the GraphQL API of Buildkite. Discover the required scopes for the API access token and explore a YAML-based local configuration example. Uncover the extensive capabilities of the API, such
