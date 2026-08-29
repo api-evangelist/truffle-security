@@ -10,6 +10,17 @@ description: >-
   (GitHub, GitLab, Confluence, Jira, Slack, SharePoint, GCP, and more), a triage dashboard, and a
   v3 Enterprise API. Products include TruffleHog open source, TruffleHog Enterprise, Analyze, and
   Forager.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
