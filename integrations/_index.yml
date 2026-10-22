@@ -27,19 +27,6 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
-- slug: truffle-security-slack-own
-  label: Slack (own)
-  partner: slack
-  partner_name: Slack (own)
-  category: Slack app
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://slack.com/marketplace/A09FCJ4LHAT-trufflehog-enterprise
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
 - slug: truffle-security-go-module-proxy
   label: Go module proxy
   partner_name: Go module proxy
@@ -119,5 +106,31 @@
     year: '2021'
     status: Active
     sector: Enterprise;Infra;Seed
+  status: not-a-workflow
+  arazzo: null
+- slug: truffle-security-slack-own
+  label: Slack (own)
+  partner: slack
+  partner_name: Slack (own)
+  category: Slack app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://slack.com/marketplace/A09FCJ4LHAT-trufflehog-enterprise
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: truffle-security-artifact-hub-artifact-hub
+  label: Artifact Hub (artifact-hub)
+  partner: artifact-hub
+  partner_name: Artifact Hub (artifact-hub)
+  category: Artifact Hub listing (Helm chart)
+  type: marketplace
+  marketplace: artifact-hub
+  channel: partner-built
+  evidence: https://artifacthub.io/packages/search?repo=trufflesecurity
+  source: edge
+  relationship: platform-app
   status: not-a-workflow
   arazzo: null
